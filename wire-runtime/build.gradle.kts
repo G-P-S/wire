@@ -38,6 +38,10 @@ kotlin {
     tvosX64()
     tvosArm64()
     tvosSimulatorArm64()
+    watchosX64()
+    watchosArm64()
+    watchosDeviceArm64()
+    watchosSimulatorArm64()
   }
 
   if (System.getProperty("kwasm", "true").toBoolean()) {
